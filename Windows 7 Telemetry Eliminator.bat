@@ -1,3 +1,5 @@
+@echo off
+
 echo Removing Telemetry Update 1
 rem This update performs diagnostics on the Windows systems that participate in the Windows Customer Experience Improvement Program. The diagnostics evaluate the compatibility status of the Windows ecosystem, and help Microsoft to ensure application and device compatibility for all updates to Windows. There is no GWX or upgrade functionality contained in this update.
 start /w wusa.exe /uninstall /kb:2952664 /quiet /norestart
